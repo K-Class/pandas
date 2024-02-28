@@ -3,9 +3,9 @@
 
 pip
 versioneer[toml]
-cython~=3.0.5
-meson[ninja]==1.2.1
-meson-python==0.13.1
+cython>=3.0.5
+meson[ninja]>=1.2.1
+meson-python>=0.13.1
 pytest>=7.3.2
 pytest-cov
 pytest-xdist>=2.2.0
@@ -13,7 +13,7 @@ pytest-qt>=4.2.0
 PyQt5>=5.15.9
 coverage
 python-dateutil
-numpy<2
+numpy
 pytz
 beautifulsoup4>=4.11.2
 blosc
@@ -52,8 +52,8 @@ seaborn
 moto
 flask
 asv>=0.6.1
-flake8==6.1.0
-mypy==1.8.0
+flake8>=6.1.0
+mypy>=1.8.0
 tokenize-rt
 pre-commit>=3.6.0
 gitpython
@@ -61,7 +61,7 @@ gitdb
 google-auth
 natsort
 numpydoc
-pydata-sphinx-theme==0.14
+pydata-sphinx-theme>=0.14
 pytest-cython
 sphinx
 sphinx-design
